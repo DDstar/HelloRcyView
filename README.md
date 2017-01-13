@@ -218,3 +218,25 @@ public abstract class RcyItemClickerListener extends RecyclerView.SimpleOnItemTo
 ```
 这两个方法是在Activity使用到Item的点击时的回调，那这两个方法在哪里调用呢？就是在mGestureDetectorCompat的onLongPress和onSingleTapUp方法
 最后，通过用户点击屏幕回调的MotionEvent获取到点击的坐标，再让RecyclerView根据坐标获取到点击到的Item，最后调用相应的点击事件就ok了
+
+MainActivity的使用
+
+```
+  mRcyView.addOnItemTouchListener(new RcyItemClickerListener(mRcyView) {
+            @Override
+            public void onItemClick(RecyclerView.ViewHolder vh) {
+                if (vh.getLayoutPosition() == 0) {
+                    adapter.addItem(vh);
+                } else {
+                    adapter.removeItem(vh);
+                }
+            }
+
+            @Override
+            public void onItemLongClick(RecyclerView.ViewHolder vh) {
+                adapter.removeItem(vh);
+            }
+        });
+```
+
+### 功能3 RecyclerView添加Item的增加删除动画
