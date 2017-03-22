@@ -1,3 +1,4 @@
+
 <component name="MarkdownNavigator.ProfileManager">
-  <settings default="" />
+  <settings default="" pdf-export="" />
 </component>

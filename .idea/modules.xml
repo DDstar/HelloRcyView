@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloRcyView.iml" filepath="$PROJECT_DIR$/HelloRcyView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloRcyView-master.iml" filepath="$PROJECT_DIR$/HelloRcyView-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rcyclerview/rcyclerview.iml" filepath="$PROJECT_DIR$/rcyclerview/rcyclerview.iml" />
     </modules>
   </component>
 </project>

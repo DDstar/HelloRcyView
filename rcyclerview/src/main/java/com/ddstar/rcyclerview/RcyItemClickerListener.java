@@ -1,4 +1,4 @@
-package org.ddstar.hellorcyview;
+package com.ddstar.rcyclerview;
 
 import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.widget.RecyclerView;
@@ -53,5 +53,8 @@ public abstract class RcyItemClickerListener extends RecyclerView.SimpleOnItemTo
 
     public abstract void onItemClick(RecyclerView.ViewHolder vh);
 
-    public abstract void onItemLongClick(RecyclerView.ViewHolder vh);
+    //这边空实现的原因是现在用长按的功能比较少了，当然如果想要实现的话只需要重写它就行了
+    protected void onItemLongClick(RecyclerView.ViewHolder vh) {
+
+    }
 }
