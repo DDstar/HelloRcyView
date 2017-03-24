@@ -242,4 +242,4 @@ MainActivity的使用
 ### 功能3 RecyclerView添加Item的增加删除动画
 ### 功能4 RecyclerView添加上拉加载更多
 先上几张图吧
-![展示图1](https://github.com/DDstar/HelloRcyView/blob/master/Pictures/p1.png=10x20)
+![展示图1](https://github.com/DDstar/HelloRcyView/blob/master/Pictures/p1.png)
